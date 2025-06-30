@@ -151,12 +151,14 @@ export const Faq = () => {
           <div className="bg-[#2C3E50]/5 p-8 rounded-xl border border-gray-200 inline-block">
             <h3 className="text-xl font-semibold text-[#2C3E50] mb-3">Vous ne trouvez pas votre réponse ?</h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">Notre équipe se tient à votre disposition pour toute question supplémentaire</p>
-            <button className="px-8 py-3 bg-[#2C3E50] hover:bg-[#1a2635] text-white font-medium rounded-lg shadow-lg transition-all duration-300 inline-flex items-center">
+            <motion.a 
+            href='#appointment'
+            className="px-8 py-3 bg-[#2C3E50] hover:bg-[#1a2635] text-white font-medium rounded-lg shadow-lg transition-all duration-300 inline-flex items-center">
               Contactez-nous
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </button>
+            </motion.a>
           </div>
         </div>
       </div>
